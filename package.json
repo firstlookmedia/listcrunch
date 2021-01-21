@@ -1,13 +1,13 @@
 {
   "name": "listcrunch",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A JS port of MuckRock's listcrunch",
   "license": "MIT",
   "repository": "git@github.com:firstlookmedia/listcrunch.git",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build":  "tsc --build tsconfig.build.json",
+    "build": "tsc --build tsconfig.build.json",
     "build:watch": "yarn build --watch",
     "prepublishOnly": "yarn test && yarn build",
     "test": "jest",
